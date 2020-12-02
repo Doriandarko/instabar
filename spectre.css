@@ -2004,6 +2004,10 @@ video.video-responsive::before {
     -ms-flex: none;
     flex: none;
   }
+  
+  .container.grid-lg {
+  max-width: 400px;
+}
   .col-xs-12 {
     width: 100%;
   }
@@ -2049,6 +2053,9 @@ video.video-responsive::before {
   .show-xs {
     display: block !important;
   }
+  
+  
+  
 }
 
 .hero {
