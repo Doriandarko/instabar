@@ -44,10 +44,16 @@ section {
 	margin-top: 32px;
 }
 
+.margin-min {
+	
+	margin-top: -32px;
+}
+
 .preview {
 	
 	width: 400px;
 }
+
 
 
 /** Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Firefox, and Safari. */
@@ -321,7 +327,7 @@ body {
 }
 
 a {
-  color: #5755d9;
+  color: #ff5e53;
   outline: none;
   text-decoration: none;
 }
@@ -334,12 +340,12 @@ a:focus,
 a:hover,
 a:active,
 a.active {
-  color: #302ecd;
+  color: #e580af;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #807fe2;
+  color: #000000;
 }
 
 h1,
