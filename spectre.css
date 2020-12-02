@@ -39,6 +39,11 @@ section {
 	margin-top: 72px;
 }
 
+.margin-top-l {
+	
+	margin-top: 84px;
+}
+
 .margin-top-s {
 	
 	margin-top: 32px;
@@ -46,13 +51,25 @@ section {
 
 .margin-min {
 	
-	margin-top: -32px;
+	margin-top: -20px;
 }
 
-.preview {
+.margin-bottom-l {
+	
+	
+	margin-bottom: 120px;
+}
+
+.margin-bottom-s {
+	
+	
+	margin-bottom: 72px;
+}
+
+/*.preview {
 	
 	width: 400px;
-}
+}*/
 
 
 
@@ -327,7 +344,7 @@ body {
 }
 
 a {
-  color: #ff5e53;
+  color: #000000;
   outline: none;
   text-decoration: none;
 }
@@ -340,12 +357,12 @@ a:focus,
 a:hover,
 a:active,
 a.active {
-  color: #e580af;
+  color: #fb6854;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #000000;
+  color: #aeaeae;
 }
 
 h1,
@@ -388,6 +405,7 @@ h5,
 .h5 {
   font-size: 1rem;
   font-weight: 400;
+  color: #919191;
 }
 
 h6,
@@ -397,6 +415,7 @@ h6,
 
 p {
   margin: 0 0 1.2rem;
+  color: #919191;
 }
 
 a,
@@ -637,21 +656,21 @@ html:lang(ko),
 }
 
 .btn.btn-primary {
-  background: #5755d9;
+  background: #000000;
   border-color: #4b48d6;
   color: #fff;
 }
 
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
-  background: #4240d4;
+  background: #333333;
   border-color: #3634d2;
   color: #fff;
 }
 
 .btn.btn-primary:active,
 .btn.btn-primary.active {
-  background: #3a38d2;
+  background: #111111;
   border-color: #302ecd;
   color: #fff;
 }
@@ -1582,8 +1601,8 @@ video.video-responsive::before {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-left: -.4rem;
-  margin-right: -.4rem;
+  margin-left: -3rem;
+  margin-right: -3rem;
 }
 
 .cols.col-gapless,
