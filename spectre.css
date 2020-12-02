@@ -30,15 +30,16 @@ section {
 
 .logo {
 	
-	width: 160px;
+	width: 318px;
 	
 }
 
 
 /** Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Firefox, and Safari. */
 h1 {
-  font-size: 2em;
+  font-size: 3.7em;
   margin: .67em 0;
+ font-weight: 700;
 }
 
 /* Grouping content ========================================================================== */
@@ -298,7 +299,7 @@ html {
 body {
   background: #fff;
   color: #3b4351;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: .8rem;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
