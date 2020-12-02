@@ -34,6 +34,16 @@ section {
 	
 }
 
+.margin-top {
+	
+	margin-top: 72px;
+}
+
+.margin-top-s {
+	
+	margin-top: 32px;
+}
+
 
 /** Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Firefox, and Safari. */
 h1 {
@@ -298,7 +308,7 @@ html {
 
 body {
   background: #fff;
-  color: #3b4351;
+  color: #131313;
   font-family: 'Heebo', sans-serif;
   font-size: .8rem;
   overflow-x: hidden;
@@ -334,24 +344,17 @@ h4,
 h5,
 h6 {
   color: inherit;
-  font-weight: 500;
+  
   line-height: 1.2;
   margin-bottom: .5em;
   margin-top: 0;
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  font-weight: 500;
-}
 
 h1,
 .h1 {
-  font-size: 2rem;
+  font-size:  3.7em;]
+  font-weight: 700;
 }
 
 h2,
@@ -367,11 +370,13 @@ h3,
 h4,
 .h4 {
   font-size: 1.2rem;
+  font-weight: 700;
 }
 
 h5,
 .h5 {
   font-size: 1rem;
+  font-weight: 400;
 }
 
 h6,
