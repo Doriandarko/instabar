@@ -4,9 +4,16 @@
 /** 1. Change the default font family in all browsers (opinionated). 2. Correct the line height in all browsers. 3. Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
 /* Document ========================================================================== */
 html {
-  font-family: 'Heebo', sans-serif; /* 1 */
+  font-family: sans-serif; /* 1 */
   -webkit-text-size-adjust: 100%; /* 3 */ 
   -ms-text-size-adjust: 100%; /* 3 */
+}
+
+
+.description {
+	
+	margin-top: 50%;
+	
 }
 
 /* Sections ========================================================================== */
@@ -25,65 +32,10 @@ section {
   display: block;
 }
 
-
-/*Additional layout */
-
-.logo {
-	
-	width: 280px;
-	
-}
-
-.icon {
-	
-	
-	width: 42px;
-}
-
-.margin-top {
-	
-	margin-top: 72px;
-}
-
-.margin-top-l {
-	
-	margin-top: 84px;
-}
-
-.margin-top-s {
-	
-	margin-top: 32px;
-}
-
-.margin-min {
-	
-	margin-top: -20px;
-}
-
-.margin-bottom-l {
-	
-	
-	margin-bottom: 120px;
-}
-
-.margin-bottom-s {
-	
-	
-	margin-bottom: 72px;
-}
-
-/*.preview {
-	
-	width: 400px;
-}*/
-
-
-
 /** Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Firefox, and Safari. */
 h1 {
-  font-size: 3.7em;
-  margin: .67em 0;
- font-weight: 700;
+margin: .67em 0 .0em;
+font-size: 90px;
 }
 
 /* Grouping content ========================================================================== */
@@ -342,17 +294,22 @@ html {
 
 body {
   background: #fff;
-  color: #131313;
-  font-family: 'Heebo', sans-serif;
+  color: #000000;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   font-size: .8rem;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
 }
 
 a {
-  color: #000000;
-  outline: none;
-  text-decoration: none;
+background: #000000;
+  border-radius: .1rem;
+  color: #fff;
+line-height: 1.25;
+padding: 12px 56px;
+text-decoration: none;
+text-align: center;
+font-size: 1rem;
 }
 
 a:focus {
@@ -363,12 +320,13 @@ a:focus,
 a:hover,
 a:active,
 a.active {
-  color: #fb6854;
-  text-decoration: underline;
+  color: #d0d0d0;
+  text-decoration: none;
 }
 
 a:visited {
-  color: #aeaeae;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 h1,
@@ -378,17 +336,24 @@ h4,
 h5,
 h6 {
   color: inherit;
-  
+  font-weight: 500;
   line-height: 1.2;
-  margin-bottom: .5em;
   margin-top: 0;
 }
 
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 500;
+}
 
 h1,
 .h1 {
-  font-size:  3.7em;]
-  font-weight: 700;
+	font-size: 4rem;
+	font-weight: bold;
 }
 
 h2,
@@ -398,20 +363,19 @@ h2,
 
 h3,
 .h3 {
-  font-size: 1.4rem;
+  font-size: 4rem;
+  line-height: 100%;
+  margin-bottom: 2.5rem;
 }
 
 h4,
 .h4 {
   font-size: 1.2rem;
-  font-weight: 700;
 }
 
 h5,
 .h5 {
   font-size: 1rem;
-  font-weight: 400;
-  color: #919191;
 }
 
 h6,
@@ -421,7 +385,7 @@ h6,
 
 p {
   margin: 0 0 1.2rem;
-  color: #919191;
+  color: gray;
 }
 
 a,
@@ -662,21 +626,21 @@ html:lang(ko),
 }
 
 .btn.btn-primary {
-  background: #000000;
+  background: #5755d9;
   border-color: #4b48d6;
   color: #fff;
 }
 
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
-  background: #333333;
+  background: #4240d4;
   border-color: #3634d2;
   color: #fff;
 }
 
 .btn.btn-primary:active,
 .btn.btn-primary.active {
-  background: #111111;
+  background: #3a38d2;
   border-color: #302ecd;
   color: #fff;
 }
@@ -1607,8 +1571,8 @@ video.video-responsive::before {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-left: -3rem;
-  margin-right: -3rem;
+  margin-left: -.4rem;
+  margin-right: -.4rem;
 }
 
 .cols.col-gapless,
@@ -2010,18 +1974,6 @@ video.video-responsive::before {
     -ms-flex: none;
     flex: none;
   }
-  
-  .container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: .4rem;
-  padding-right: .4rem;
-  width: 85%;
-}
-  
-  .container.grid-lg {
-  max-width: 400px;
-}
   .col-xs-12 {
     width: 100%;
   }
@@ -2067,9 +2019,6 @@ video.video-responsive::before {
   .show-xs {
     display: block !important;
   }
-  
-  
-  
 }
 
 .hero {
