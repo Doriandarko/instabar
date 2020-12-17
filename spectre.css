@@ -303,7 +303,7 @@ body {
 
 a {
 background: #000000;
-  border-radius: .1rem;
+  border-radius: 6px;
   color: #fff;
 line-height: 1.25;
 padding: 12px 56px;
@@ -366,6 +366,7 @@ h3,
   font-size: 4rem;
   line-height: 100%;
   margin-bottom: 2.5rem;
+  font-weight: 300;
 }
 
 h4,
